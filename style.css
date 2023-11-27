@@ -1,0 +1,139 @@
+/* menulinje */
+
+nav {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* forsidebillede og logo */
+
+/* I din style.css-fil */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.background-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Dækker hele containeren og beskærer billedet efter behov */
+  object-position: center; /* Centrerer billedet i containeren */
+  padding-bottom: 50px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.logo-container img {
+  height: 100px;
+  width: auto;
+  border-radius: 100px;
+}
+
+/* billedegalleri */
+
+.body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Juster efter behov */
+}
+
+.image-container {
+  max-width: 800px; /* Juster efter behov */
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+/* video */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* juster efter behov for at fylde hele skærmen */
+}
+
+video {
+  width: 90%; /* Juster efter behov for at få videoen til at fylde mere af containeren */
+  max-width: 1200px;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
