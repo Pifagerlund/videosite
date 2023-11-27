@@ -33,7 +33,6 @@ a:hover {
 /* I din style.css-fil */
 body {
   margin: 0;
-  overflow: hidden;
 }
 
 .background-container {
@@ -70,7 +69,6 @@ body {
 .body {
   margin: 0;
   font-family: Arial, sans-serif;
-  overflow-y: scroll;
 }
 
 header {
@@ -136,4 +134,14 @@ video {
   height: auto;
   border: 2px solid #ddd;
   border-radius: 8px;
+}
+
+.youtube-link {
+  color: black;
+  font-weight: bold;
+  transition: text-decoration 0.3s ease;
+}
+
+.youtube-link:hover {
+  text-decoration: underline; /* Tilføj understregning ved hover */
 }
